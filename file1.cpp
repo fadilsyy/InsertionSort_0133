@@ -17,23 +17,23 @@ break;
 }
 else
 {
-cout << "\nArray yang anda masukkan maksimal 20 Elemen.\n"; // menampilkan pesan jika data lebih dari 20
+cout << "\nArray yang anda masukkan maksimal 20 Elemen.\n";
 }
 }
-cout << endl; // membuat jarak per baris program
-cout << "======================" << endl; // membuat tampilan susunan data element array
+cout << endl;
+cout << "======================" << endl;
 cout << "Masukkan Element Array" << endl;
 cout << "======================" << endl;
 
-for (int i = 0; i < n; i++) // menggunakan perulangan for untuk menyimpan data pada array
+for (int i = 0; i < n; i++)
 {
-cout << "Data ke-" << (i + 1) << ": "; // memasukkan atau menginputkan nilai data n
-cin >> arr[i]; // menyimpan nilai data n ke dalam array arr
+cout << "Data ke-" << (i + 1) << ": ";
+cin >> arr[i];
 }
 }
 
 void insertionSort()
-{ // procedure insertionsort
+{
 
 int temp;
 int j, i;
