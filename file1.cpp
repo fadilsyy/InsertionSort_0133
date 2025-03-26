@@ -2,7 +2,7 @@
 using namespace std;
 
 int arr[20];
-int n; // membuat variable n
+int n;
 
 void input()
 { // procedure input
