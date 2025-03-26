@@ -5,7 +5,7 @@ int arr[20];
 int n;
 
 void input()
-{ // procedure input
+{
 while (true)
 {
 cout << "Masukkan Jumlah Data pada Array : "; // membuat inputan jumlah element array
