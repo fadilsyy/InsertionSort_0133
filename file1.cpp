@@ -9,7 +9,7 @@ void input()
 while (true)
 {
 cout << "Masukkan Jumlah Data pada Array : ";
-cin >> n; // memanggil variable inputan n
+cin >> n;
 
 if (n <= 20)
 { // membuat kondisi n tidal lebih dari 20
