@@ -12,7 +12,7 @@ cout << "Masukkan Jumlah Data pada Array : ";
 cin >> n;
 
 if (n <= 20)
-{ // membuat kondisi n tidal lebih dari 20
+{
 break;
 }
 else
