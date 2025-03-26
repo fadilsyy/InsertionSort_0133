@@ -8,7 +8,7 @@ void input()
 {
 while (true)
 {
-cout << "Masukkan Jumlah Data pada Array : "; // membuat inputan jumlah element array
+cout << "Masukkan Jumlah Data pada Array : ";
 cin >> n; // memanggil variable inputan n
 
 if (n <= 20)
